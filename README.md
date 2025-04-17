@@ -1,5 +1,5 @@
-## Segmentation of selected solar corona structures
-
+# Segmentation of selected solar corona structures
+## Systems and user manual
 ---
 
 ### Author: Bc. Ľubomír Lazor
@@ -54,3 +54,23 @@ The file structure expands on the already existing [SCSS-Net](https://github.com
 * Two best performing models based on SCSS-Net are included. Notebooks "U-net_AR.ipynb" and "U-net_CH.ipynb" make replication or alteration of the models possible along with their evaluation and visualization of predictions.
 
 * Notebooks "U-net_AR_evaluation_only.ipynb" and "U-net_CH_evaluation_only.ipynb" are as their names suggest, just for evaluation and visualization of the predictions. Compared to the legacy notebooks, these ones were simplified for ease of use.
+
+* To run the notebooks, simply install the required dependencies below and open the .ipynb files in Jupyter Notebook or JupyterLab. All paths to datasets are relative and should work if the structure is preserved. Each notebook is thoroughly commented, and explanatory Markdown cells are provided throughout to guide the user through each step of preprocessing, training, evaluation and visualization.
+
+# System Requirements
+
+ The following Python libraries are required to run the project and reproduce the experiments. These dependencies closely follow the ones from SCSS-Net:
+
+- `albumentations >= 0.4.6` – advanced data augmentation
+- `opencv-python >= 4.3.0.36` – image processing and transformation
+- `matplotlib >= 3.2.1` – visualization of data and results
+- `numpy >= 1.18.4` – numerical computations
+- `pillow >= 7.2.0` – image file manipulation
+- `tensorflow >= 2.2.0` – deep learning framework for model training
+- `scikit-learn >= 0.21.3` – evaluation metrics and ML utilities
+- `sunpy >= 1.1.3` – solar physics data analysis
+- `astropy >= 4.0.1` – astronomical data handling and FITS support
+- `zeep >= 3.4.0` – SOAP client for external data services
+- `glymur >= 0.9.1` – support for JPEG2000 solar images
+- `drms >= 0.5.7` – access to JSOC data services via DRMS API
+- `keras-preprocessing` – preprocessing utilities for training
