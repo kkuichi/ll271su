@@ -13,7 +13,7 @@ This thesis explores the use of deep learning for the automated segmentation of 
 ---
 
 # File structure
-The file structure expands on the already existing SCSS-Net. The new additions are two models (one for the segmentation of coronal holes and one for the segmentation of active regions), two datasets, 4 jupyter notebook with code and a textfile with requirements.
+The file structure expands on the already existing [SCSS-Net](https://github.com/space-lab-sk/scss-net). The new additions are two models (one for the segmentation of coronal holes and one for the segmentation of active regions), two datasets, 4 jupyter notebook with code and a textfile with requirements.
 
 ```text
 ├── 📁 scss-net/
