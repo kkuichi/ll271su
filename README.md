@@ -40,14 +40,15 @@ The file structure expands on the already existing [SCSS-Net](https://github.com
 │   ├── U-net_AR.ipynb
 │   ├── U-net_CH_evaluation_only.ipynb
 │   └── U-net_CH.ipynb
+├── Solar_corona_structures_detection_and_segmentation.pdf #article
 └── README.md        
 ```
 
 # Datasets
 
-* First dataset consists of EUV images from SDO/AIA and SUVI/GOES instruments, namely the channels 193 Å and 191 Å for coronal holes and 171 Å for active regions, and SPoCA masks for both active regions and coronal holes.
+* First dataset consists of EUV images from SDO/AIA and SUVI/GOES instruments, namely the channels 193 Å and 191 Å for coronal holes and 171 Å for active regions, and SPoCA masks for both active regions and coronal holes. Due to storage constraints, the data was not able to fit inside the appendices. Test data is available at this [link](https://mega.nz/file/rZVVlLKK#pSP0Rz9Z_ZgxibT-078qUDhOg_yNEmdPyqdnXFvvpuc) (~1.9 GB), training and validation data can be provided upon request.
 
-* The second dataset introduced by [Reiss et al. (2024)](https://figshare.com/articles/dataset/Coronal_Hole_Detection_Comparison_Dataset/23997993/1?file=42085731) was used to further benchmark our coronal hole models. We used these 29 images along with masks from CHRONNOS algorithm by [Jarolim et al. (2021)](https://github.com/RobertJaro/MultiChannelCHDetection).
+* The second dataset introduced by [Reiss et al. (2024)](https://figshare.com/articles/dataset/Coronal_Hole_Detection_Comparison_Dataset/23997993/1?file=42085731) was used to further benchmark our coronal hole models. We used these 29 images along with masks from CHRONNOS algorithm by [Jarolim et al. (2021)](https://github.com/RobertJaro/MultiChannelCHDetection). This dataset is included in the appendices and can be used for testing of the model without additional downloads.
 
 # Models and Jupyter notebooks
 
